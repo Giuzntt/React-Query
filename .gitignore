@@ -1,0 +1,33 @@
+# Arquivos e pastas a serem ignorados pelo Git
+
+# Arquivos de log
+log/
+*.log
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Arquivos gerados por IDEs ou editores de texto
+.vscode/
+.idea/
+
+# Dependências instaladas pelo gerenciador de pacotes
+node_modules/
+
+# Arquivos compilados
+/dist/
+/build/
+
+# Arquivos de cache
+.cache/
+
+# Arquivos de configuração local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#
